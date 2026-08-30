@@ -3,359 +3,818 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Portfolio of Mogali Chakra Vigna Gangadhar — CSE Cyber Security student.">
-  <title>Mogali Chakra Vigna Gangadhar | Portfolio</title>
+
+  <meta name="description"
+        content="Mogali Chakra Vigna Gangadhar — Cybersecurity-focused Computer Science student portfolio.">
+
+  <title>Mogali Chakra Vigna Gangadhar | Cybersecurity Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-  <div class="bg-orb orb-one"></div>
-  <div class="bg-orb orb-two"></div>
+  <!-- ================= NAVBAR ================= -->
 
-  <header class="navbar">
-    <a class="brand" href="#home">MCVG<span>.</span></a>
+  <header class="nav">
 
-    <nav id="nav">
-      <a href="#home">Home</a>
+    <a class="logo" href="#home">
+      MCVG<span>.</span>
+    </a>
+
+    <button class="menu" aria-label="Open menu">
+      ☰
+    </button>
+
+    <nav>
       <a href="#about">About</a>
       <a href="#skills">Skills</a>
       <a href="#projects">Projects</a>
-      <a href="#certifications">Certificates</a>
+      <a href="#education">Education</a>
       <a href="#contact">Contact</a>
     </nav>
 
-    <a class="nav-cta" href="#contact">Let's Talk <span>↗</span></a>
   </header>
 
+
   <main>
-    <!-- HERO -->
-    <section class="hero section" id="home">
-      <div class="hero-copy reveal">
-        <div class="eyebrow"><span class="dot"></span> CSE • CYBER SECURITY</div>
-        <h1>Building with<br><span>curiosity & code.</span></h1>
-        <p class="hero-text">
-          I'm <strong>Mogali Chakra Vigna Gangadhar</strong>, a Computer Science
-          student focused on Cyber Security, programming and practical
-          technology projects. I enjoy learning by building and turning ideas
-          into useful working prototypes.
+
+    <!-- ================= HERO ================= -->
+
+    <section id="home" class="hero">
+
+      <div class="hero-copy">
+
+        <p class="eyebrow">
+          B.Tech CSE • Cybersecurity
         </p>
 
-        <div class="hero-actions">
-          <a class="btn btn-primary" href="#projects">Explore My Work <span>↗</span></a>
-          <a class="btn btn-ghost" href="#contact">Contact Me</a>
-        </div>
+        <h1>
+          Hi, I'm
+          <span>Mogali Chakra Vigna Gangadhar.</span>
+        </h1>
 
-        <div class="quick-stats">
-          <div><strong>6.7</strong><span>CGPA</span></div>
-          <div><strong>04</strong><span>Core Skills</span></div>
-          <div><strong>02</strong><span>Projects</span></div>
-        </div>
-      </div>
+        <h2>
+          Cybersecurity-focused Computer Science Student
+        </h2>
 
-      <div class="hero-visual reveal">
-        <div class="photo-frame">
-          <div class="frame-label">01 / PROFILE</div>
-          <img src="profile.jpg" alt="Mogali Chakra Vigna Gangadhar">
-          <div class="photo-caption">
-            <span>Computer Science</span>
-            <span>Cyber Security</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ABOUT -->
-    <section class="section split" id="about">
-      <div class="section-heading reveal">
-        <span class="section-no">01</span>
-        <p>ABOUT ME</p>
-        <h2>Turning learning<br>into <span>real work.</span></h2>
-      </div>
-
-      <div class="about-content reveal">
         <p class="lead">
-          I'm a CSE Cyber Security student who enjoys learning by building.
-          My current interests include programming, web fundamentals and
-          practical systems that solve everyday problems.
+          Motivated B.Tech Computer Science and Engineering student
+          specializing in Cyber Security. Passionate about programming,
+          technology, problem solving and building practical projects.
         </p>
+
+        <div class="buttons">
+
+          <a class="btn primary" href="#projects">
+            View Projects
+          </a>
+
+          <a class="btn secondary" href="#contact">
+            Contact Me
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <!-- PROFILE CARD -->
+
+      <div class="hero-card">
+
+        <div class="profile-photo">
+
+          <img
+            src="profile.jpg"
+            alt="Mogali Chakra Vigna Gangadhar">
+
+        </div>
+
+        <div class="status">
+          <i></i> Open to opportunities
+        </div>
+
         <p>
-          I like taking an idea from a simple concept to a working prototype,
-          while improving my problem-solving and technical skills along the way.
-          I'm currently strengthening my foundation in Python, C, HTML and CSS.
+          Currently studying at
         </p>
 
-        <div class="info-grid">
-          <div class="info-card">
-            <span>Education</span>
-            <strong>B.Tech — CSE</strong>
-            <small>Cyber Security</small>
-          </div>
-          <div class="info-card">
-            <span>University</span>
-            <strong>Lovely Professional University</strong>
-            <small>India</small>
-          </div>
-          <div class="info-card">
-            <span>Academic Score</span>
-            <strong>6.7 CGPA</strong>
-            <small>Current</small>
-          </div>
-          <div class="info-card">
-            <span>Focus</span>
-            <strong>Cyber Security</strong>
-            <small>Programming & Projects</small>
-          </div>
-        </div>
+        <strong>
+          Lovely Professional University
+        </strong>
 
-        <div class="extra-details">
-          <div>
-            <span>Career Objective</span>
-            <p>Aspiring Cybersecurity Analyst interested in building practical skills, solving problems and contributing to secure digital environments.</p>
-          </div>
-          <div>
-            <span>Languages</span>
-            <p>English • Hindi • Telugu</p>
-          </div>
-          <div>
-            <span>Activities</span>
-            <p>NSS Volunteer at Lovely Professional University • Social service activities</p>
-          </div>
-          <div>
-            <span>Interests</span>
-            <p>Singing • Outdoor games • Historical facts</p>
-          </div>
-        </div>
+        <small>
+          Phagwara, Punjab • 2025–2029
+        </small>
+
       </div>
+
     </section>
 
-    <!-- SKILLS -->
-    <section class="section" id="skills">
-      <div class="section-heading reveal centered-heading">
-        <span class="section-no">02</span>
-        <p>SKILLS & EXPERTISE</p>
-        <h2>My current <span>toolkit.</span></h2>
-        <div class="heading-line"></div>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about" class="section">
+
+      <div class="section-heading">
+
+        <p class="eyebrow">
+          01 — About
+        </p>
+
+        <h2>
+          Building skills with
+          a security mindset.
+        </h2>
+
       </div>
 
-      <div class="skills-grid reveal">
-        <article class="skill-card">
-          <div class="skill-icon">Py</div>
-          <span class="skill-number">01</span>
-          <h3>Python</h3>
-          <p>Programming fundamentals, logic building and problem solving.</p>
-          <div class="skill-bar"><i style="width:78%"></i></div>
-        </article>
 
-        <article class="skill-card">
-          <div class="skill-icon">C</div>
-          <span class="skill-number">02</span>
-          <h3>C Programming</h3>
-          <p>Core programming concepts, arrays, functions and data handling.</p>
-          <div class="skill-bar"><i style="width:72%"></i></div>
-        </article>
+      <div class="about-grid">
 
-        <article class="skill-card">
-          <div class="skill-icon">&lt;/&gt;</div>
-          <span class="skill-number">03</span>
-          <h3>HTML</h3>
-          <p>Semantic structure and responsive page foundations.</p>
-          <div class="skill-bar"><i style="width:82%"></i></div>
-        </article>
+        <p>
 
-        <article class="skill-card">
-          <div class="skill-icon">CSS</div>
-          <span class="skill-number">04</span>
-          <h3>CSS</h3>
-          <p>Layouts, responsive design, visual styling and animations.</p>
-          <div class="skill-bar"><i style="width:78%"></i></div>
-        </article>
+          I'm
+          <strong>Mogali Chakra Vigna Gangadhar</strong>,
+          a B.Tech Computer Science and Engineering student
+          specializing in Cyber Security.
+
+          I enjoy learning new technologies, developing practical
+          projects and continuously improving my programming and
+          problem-solving skills.
+
+        </p>
+
+
+        <div class="facts">
+
+          <div>
+            <span>Degree</span>
+            <strong>B.Tech CSE</strong>
+          </div>
+
+          <div>
+            <span>Specialization</span>
+            <strong>Cybersecurity</strong>
+          </div>
+
+          <div>
+            <span>CGPA</span>
+            <strong>6.7</strong>
+          </div>
+
+          <div>
+            <span>Location</span>
+            <strong>Phagwara, Punjab</strong>
+          </div>
+
+        </div>
+
       </div>
+
     </section>
 
-    <!-- PROJECTS -->
-    <section class="section" id="projects">
-      <div class="section-heading reveal">
-        <span class="section-no">03</span>
-        <p>PROJECTS</p>
-        <h2>Ideas turned<br>into <span>prototypes.</span></h2>
+
+
+    <!-- ================= SKILLS ================= -->
+
+    <section id="skills" class="section alt">
+
+      <div class="section-heading">
+
+        <p class="eyebrow">
+          02 — Skills
+        </p>
+
+        <h2>
+          Tools I work with.
+        </h2>
+
       </div>
 
-      <div class="project-area reveal">
+
+      <div class="skill-grid">
+
+        <div class="skill-card">
+
+          <span>01</span>
+
+          <h3>
+            Programming
+          </h3>
+
+          <p>
+            Python · C
+          </p>
+
+        </div>
+
+
+        <div class="skill-card">
+
+          <span>02</span>
+
+          <h3>
+            Web Development
+          </h3>
+
+          <p>
+            HTML · CSS
+          </p>
+
+        </div>
+
+
+        <div class="skill-card">
+
+          <span>03</span>
+
+          <h3>
+            Cybersecurity
+          </h3>
+
+          <p>
+            Cybersecurity fundamentals,
+            problem solving and continuous learning
+          </p>
+
+        </div>
+
+
+        <div class="skill-card">
+
+          <span>04</span>
+
+          <h3>
+            Soft Skills
+          </h3>
+
+          <p>
+            Communication · Teamwork ·
+            Leadership · Quick Learning
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section id="projects" class="section projects-section">
+
+      <div class="section-heading">
+
+        <p class="eyebrow">
+          03 — Projects
+        </p>
+
+        <h2>
+          Things I've built & explored.
+        </h2>
+
+        <p>
+          I enjoy turning ideas into practical prototypes
+          that solve real-world problems.
+        </p>
+
+      </div>
+
+
+      <div class="project-grid">
+
+
+        <!-- PROJECT 1 -->
+
         <article class="project-card featured">
+
           <div class="project-top">
-            <span class="project-type">Featured Project</span>
-            <span class="project-number">01</span>
+
+            <span class="project-index">
+              01
+            </span>
+
+            <span class="project-label">
+              Safety Automation
+            </span>
+
           </div>
 
-          <div class="project-illustration">
-            <div class="flame">♨</div>
-            <div class="sensor sensor-a">SMOKE</div>
-            <div class="sensor sensor-b">HEAT</div>
-            <div class="water-line"></div>
-            <div class="sprinkler">✦</div>
+
+          <div class="project-icon">
+            🔥
           </div>
 
-          <div class="project-body">
-            <h3>Fire Detection System & Water Sprinkler</h3>
-            <p>
-              A safety-focused project designed to detect fire conditions and
-              trigger a water sprinkler response, combining sensing and
-              automated action to improve early fire response.
-            </p>
-            <div class="tags">
-              <span>Fire Detection</span>
-              <span>Automation</span>
-              <span>Safety System</span>
-              <span>IoT Concept</span>
-            </div>
+
+          <p class="tag">
+            November 2025
+          </p>
+
+
+          <h3>
+            Fire Detection & Automatic Water Sprinkler
+          </h3>
+
+
+          <p>
+
+            A team project designed to detect fire and
+            automatically activate a water sprinkler to
+            help control the situation and improve safety.
+
+          </p>
+
+
+          <div class="chips">
+
+            <span>Arduino Uno</span>
+
+            <span>Flame Sensor</span>
+
+            <span>Relay Module</span>
+
+            <span>Motor</span>
+
+            <span>Buzzer</span>
+
           </div>
+
         </article>
 
+
+
+        <!-- PROJECT 2 -->
 
         <article class="project-card">
+
           <div class="project-top">
-            <span class="project-type">Python Project</span>
-            <span class="project-number">02</span>
+
+            <span class="project-index">
+              02
+            </span>
+
+            <span class="project-label">
+              Python
+            </span>
+
           </div>
-          <div class="project-body">
-            <h3>Student Report Card Generator</h3>
-            <p>
-              An individual Python project that accepts subject-wise grades,
-              displays subjects with their corresponding grades and adds
-              remarks for lower grades using dictionaries and functions.
-            </p>
-            <div class="tags">
-              <span>Python</span>
-              <span>Functions</span>
-              <span>Dictionaries</span>
-              <span>Logic Building</span>
-            </div>
+
+
+          <div class="project-icon">
+            📊
           </div>
+
+
+          <p class="tag">
+            June 2025
+          </p>
+
+
+          <h3>
+            Student Report Card Generator
+          </h3>
+
+
+          <p>
+
+            An individual Python project that accepts
+            subject-wise grades and displays subjects
+            with their corresponding grades.
+
+            It also provides remarks for subjects where
+            a student receives a lower grade.
+
+          </p>
+
+
+          <div class="chips">
+
+            <span>Python</span>
+
+            <span>Functions</span>
+
+            <span>Dictionaries</span>
+
+            <span>Data Handling</span>
+
+          </div>
+
         </article>
 
-        <aside class="project-side">
-          <div class="mini-card">
-            <span>PROJECT MINDSET</span>
-            <h3>Learn → Build → Test → Improve</h3>
-            <p>I prefer practical projects that turn classroom concepts into something demonstrable.</p>
+
+
+        <!-- PROJECT 3 -->
+
+        <article class="project-card">
+
+          <div class="project-top">
+
+            <span class="project-index">
+              03
+            </span>
+
+            <span class="project-label">
+              Cybersecurity
+            </span>
+
           </div>
-          <div class="mini-card accent-card">
-            <span>CURRENT FOCUS</span>
-            <h3>Cyber Security + Development</h3>
-            <p>Strengthening programming fundamentals while exploring security-oriented problem solving.</p>
+
+
+          <div class="project-icon">
+            🔐
           </div>
-        </aside>
+
+
+          <p class="tag">
+            Learning & Exploration
+          </p>
+
+
+          <h3>
+            Cybersecurity Learning
+          </h3>
+
+
+          <p>
+
+            Exploring cybersecurity fundamentals,
+            secure digital environments and practical
+            problem-solving while developing a strong
+            foundation in computer science.
+
+          </p>
+
+
+          <div class="chips">
+
+            <span>Cybersecurity</span>
+
+            <span>Problem Solving</span>
+
+            <span>Programming</span>
+
+          </div>
+
+        </article>
+
       </div>
+
     </section>
 
 
-    <!-- EDUCATION -->
-    <section class="section" id="education">
-      <div class="section-heading reveal">
-        <span class="section-no">04</span>
-        <p>EDUCATION</p>
-        <h2>My academic<br><span>journey.</span></h2>
-      </div>
 
-      <div class="education-list reveal">
-        <article class="education-card">
-          <span>2025 — 2029</span>
-          <div>
-            <h3>Lovely Professional University</h3>
-            <p>Bachelor of Technology — Computer Science & Engineering</p>
-            <strong>CGPA: 6.7</strong>
-          </div>
-        </article>
+    <!-- ================= EDUCATION ================= -->
 
-        <article class="education-card">
-          <span>2023 — 2025</span>
-          <div>
-            <h3>Tirumala Junior College, Rajamundry</h3>
-            <p>Higher Secondary Education</p>
-            <strong>Percentage: 93%</strong>
-          </div>
-        </article>
+    <section id="education" class="section alt">
 
-        <article class="education-card">
-          <span>2023</span>
-          <div>
-            <h3>Madhuri Vidyalaya, Gollaprolu, Andhra Pradesh</h3>
-            <p>Secondary Education</p>
-            <strong>Percentage: 75%</strong>
-          </div>
-        </article>
-      </div>
-    </section>
+      <div class="section-heading">
 
-    <!-- CERTIFICATIONS -->
-    <section class="section" id="certifications">
-      <div class="section-heading reveal centered-heading">
-        <span class="section-no">05</span>
-        <p>CERTIFICATIONS</p>
-        <h2>Learning with <span>proof.</span></h2>
-        <div class="heading-line"></div>
-      </div>
-
-      <div class="cert-grid reveal">
-        <article class="cert-card">
-          <div class="cert-top"><span>INFOSYS / SPRINGBOARD</span><span>01</span></div>
-          <div class="cert-mark">PY</div>
-          <h3>Programming Fundamentals using Python — Part 1</h3>
-          <p>Course completion certificate issued July 5, 2026.</p>
-          <a href="python-fundamentals-part-1.pdf" target="_blank">View Certificate ↗</a>
-        </article>
-
-        <article class="cert-card">
-          <div class="cert-top"><span>INFOSYS / SPRINGBOARD</span><span>02</span></div>
-          <div class="cert-mark">PY</div>
-          <h3>Programming Fundamentals using Python — Part 2</h3>
-          <p>Course completion certificate issued July 22, 2026.</p>
-          <a href="python-fundamentals-part-2.pdf" target="_blank">View Certificate ↗</a>
-        </article>
-      </div>
-    </section>
-
-    <!-- CONTACT -->
-    <section class="section contact-section" id="contact">
-      <div class="section-heading reveal">
-        <span class="section-no">06</span>
-        <p>LET'S CONNECT</p>
-        <h2>Have an idea?<br><span>Let's build.</span></h2>
-      </div>
-
-      <div class="contact-content reveal">
-        <p class="lead">
-          I'm open to learning opportunities, collaborations, projects and
-          conversations around technology and cyber security.
+        <p class="eyebrow">
+          04 — Education & Certifications
         </p>
 
-        <a class="email-link" href="mailto:mogaliganesh143@gmail.com">
-          mogaliganesh143@gmail.com <span>↗</span>
-        </a>
-        <p class="phone-link">+91 7981819974</p>
+        <h2>
+          My learning journey.
+        </h2>
 
-        <div class="socials">
-          <a href="https://github.com/mogaliganesh17" target="_blank" rel="noopener">GitHub ↗</a>
-          <a href="https://www.linkedin.com/in/mogali-chakra-vigna-gangadhar-5695a237a" target="_blank" rel="noopener">LinkedIn ↗</a>
-        </div>
       </div>
+
+
+      <div class="timeline">
+
+
+        <!-- LPU -->
+
+        <div class="timeline-item">
+
+          <span>
+            2025 — 2029
+          </span>
+
+          <div>
+
+            <h3>
+              Lovely Professional University
+            </h3>
+
+            <p>
+              Bachelor of Technology —
+              Computer Science and Engineering
+            </p>
+
+            <strong>
+              Cybersecurity specialization · CGPA 6.7
+            </strong>
+
+          </div>
+
+        </div>
+
+
+
+        <!-- 12TH -->
+
+        <div class="timeline-item">
+
+          <span>
+            2023 — 2025
+          </span>
+
+          <div>
+
+            <h3>
+              Tirumala Junior College
+            </h3>
+
+            <p>
+              Rajamundry, Andhra Pradesh
+            </p>
+
+            <strong>
+              Higher Secondary Education · 93%
+            </strong>
+
+          </div>
+
+        </div>
+
+
+
+        <!-- 10TH -->
+
+        <div class="timeline-item">
+
+          <span>
+            2023
+          </span>
+
+          <div>
+
+            <h3>
+              Madhuri Vidyalaya
+            </h3>
+
+            <p>
+              Gollaprolu, Andhra Pradesh
+            </p>
+
+            <strong>
+              Secondary Education · 75%
+            </strong>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+      <!-- CERTIFICATES -->
+
+      <div class="certs">
+
+
+        <!-- CERTIFICATE 1 -->
+
+        <a
+          class="certificate-card"
+          href="python-fundamentals-part-1.pdf"
+          target="_blank"
+        >
+
+          <div class="certificate-number">
+            01
+          </div>
+
+          <div class="certificate-content">
+
+            <h3>
+              Programming Fundamentals using Python — Part 1
+            </h3>
+
+            <p>
+              Infosys / Springboard · July 5, 2026
+            </p>
+
+          </div>
+
+          <span class="certificate-arrow">
+            ↗
+          </span>
+
+        </a>
+
+
+
+        <!-- CERTIFICATE 2 -->
+
+        <a
+          class="certificate-card"
+          href="python-fundamentals-part-2.pdf"
+          target="_blank"
+        >
+
+          <div class="certificate-number">
+            02
+          </div>
+
+          <div class="certificate-content">
+
+            <h3>
+              Programming Fundamentals using Python — Part 2
+            </h3>
+
+            <p>
+              Infosys / Springboard · July 22, 2026
+            </p>
+
+          </div>
+
+          <span class="certificate-arrow">
+            ↗
+          </span>
+
+        </a>
+
+      </div>
+
     </section>
+
+
+
+    <!-- ================= ACTIVITIES ================= -->
+
+    <section class="section compact">
+
+      <div class="achievement">
+
+        <div>
+
+          <p class="eyebrow">
+            05 — Activities
+          </p>
+
+          <h2>
+            NSS Volunteer at Lovely Professional University.
+          </h2>
+
+        </div>
+
+
+        <p>
+
+          Participated in NSS-organized social service
+          activities and team-based initiatives while
+          developing communication and teamwork skills.
+
+        </p>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact" class="section contact">
+
+      <div class="section-heading">
+
+        <p class="eyebrow">
+          06 — Contact
+        </p>
+
+        <h2>
+          Let's connect.
+        </h2>
+
+        <p>
+          Have an opportunity, project, or collaboration
+          in mind? Reach out.
+        </p>
+
+      </div>
+
+
+      <div class="contact-grid">
+
+
+        <!-- EMAIL -->
+
+        <a href="mailto:mogaliganesh143@gmail.com">
+
+          <span>
+            Email
+          </span>
+
+          <strong>
+            mogaliganesh143@gmail.com
+          </strong>
+
+        </a>
+
+
+
+        <!-- MOBILE -->
+
+        <a href="tel:+917981819974">
+
+          <span>
+            Mobile
+          </span>
+
+          <strong>
+            +91 7981819974
+          </strong>
+
+        </a>
+
+
+
+        <!-- GITHUB -->
+
+        <a
+          href="https://github.com/mogaliganesh17"
+          target="_blank"
+          rel="noopener"
+        >
+
+          <span>
+            GitHub
+          </span>
+
+          <strong>
+            github.com/mogaliganesh17 ↗
+          </strong>
+
+        </a>
+
+
+
+        <!-- LINKEDIN -->
+
+        <a
+          href="https://www.linkedin.com/in/mogali-chakra-vigna-gangadhar-5695a237a"
+          target="_blank"
+          rel="noopener"
+        >
+
+          <span>
+            LinkedIn
+          </span>
+
+          <strong>
+            Mogali Chakra Vigna Gangadhar ↗
+          </strong>
+
+        </a>
+
+      </div>
+
+    </section>
+
   </main>
 
+
+
+  <!-- ================= FOOTER ================= -->
+
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <button
+    class="back-top"
+    aria-label="Back to top"
+  >
+    ↑
+  </button>
+
+
   <footer>
-    <div><strong>Mogali Chakra Vigna Gangadhar</strong><span> CSE • Cyber Security</span></div>
-    <div>© 2026 • Built with HTML & CSS</div>
+
+    <p>
+      © 2026 Mogali Chakra Vigna Gangadhar
+    </p>
+
+    <p>
+      Designed & built with HTML, CSS & JavaScript.
+    </p>
+
   </footer>
 
-  <script>
-    // Small scroll reveal effect; the portfolio itself is HTML/CSS.
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) entry.target.classList.add("visible");
-      });
-    }, { threshold: 0.12 });
 
-    document.querySelectorAll(".reveal").forEach(el => observer.observe(el));
-  </script>
+  <script src="script.js"></script>
+
 </body>
 </html>
